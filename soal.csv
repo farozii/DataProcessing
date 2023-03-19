@@ -1,0 +1,10 @@
+kode_barang, nama_barang, jumlah_barang, jenis_barang
+B123, sari roti, 10,pangan
+B124, roti gandum, 20,pangan
+B456,,5,sandang
+,baju,12,sandang
+B445,,15,
+B446,topi,5,sandang
+B125,rendang,20,pangan
+B126,sate,,pangan
+B447,celana,20,
