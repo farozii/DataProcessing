@@ -44,7 +44,7 @@ class dataProcessing:
     def scaling(self):
         dataset = dataProcessing.toNumerik(self)
         scale = MinMaxScaler()
-        label = ['kode_barang',' nama_barang', ' jumlah_barang',' jenis_barang']
+        label = dataProcessing.tampilKolom(self)
         dataLoc = dataset.loc[0:, label]
         dataLoc = scale.fit_transform(dataLoc)
 
